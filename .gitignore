@@ -1,3 +1,5 @@
 /subscriber/test.sh
+/publisher/test.sh
 .idea
 /subscriber/node_modules/
+/publisher/node_modules/

@@ -56,7 +56,7 @@ async function getResult() {
             console.log('Couldnt return getSensorSummary');
         }
 
-        const result = await axios(getMessageQueryConfig(streamSize - 10, 10));
+        const result = await axios(getMessageQueryConfig(streamSize - 5, 3));
         return result.data;
     } catch (error) {
         console.error(error);
